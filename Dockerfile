@@ -1,3 +1,3 @@
-FROM mcr.microsoft.com/appsvc/staticappsclient:stable
+FROM jtijani/staticwebgitcilent
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["sh", "/entrypoint.sh"]
